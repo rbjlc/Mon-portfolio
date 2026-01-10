@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Racha Bouajila</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+  
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo"> Racha Bouajila </div>
+          <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Synergie Numérique</h1>
+        <p>J'ai pour ambition de concevoir la technologie de demain dans le respect des droits Humains et de la Terre pour un avenir responsable.</p>
+        <a href="#projects" class="cta-button">Découvrir mes projets</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">À propos de moi</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="profile.jpg" alt="Portrait de Racha Bouajila">
+          </div>
+          <div class="about-text">
+            <h2>Apprentie humaniste du Web</h2>
+            <p>Étudiante à HETIC, je suis une personne curieuse et créative qui a pour objectif de lier <strong>code et conscience</strong>.</p>
+            <p>Je ne vois pas le numérique comme une fin, mais comme un outil.</p>
+            
+            <p style="font-style: italic; border-left: 3px solid #ffb86c; padding-left: 15px; margin-top: 20px; color: #a99dc4;">
+              "Il n'y aura pas de paix sur cette planète tant que les droits de l'Homme seront violés en quelque partie du monde que ce soit." <br>
+              <span style="font-size: 0.9em; font-weight: bold;">— René Cassin</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-grid">
+          
+          <div class="skill-card">
+            <div class="skill-icon">🔮</div>
+            <h3>Architecture Web</h3>
+            <p>HTML5, CSS3 & JavaScript. Je construis des interfaces solides et interactives.</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">🌿</div>
+            <h3>Eco-Design</h3>
+            <p>Conception d'interfaces pensées pour l'humain et la sobriété numérique sur Figma.</p>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">⚖️</div>
+            <h3>Stratégie & Impact</h3>
+            <p>Aligner les objectifs techniques avec des valeurs éthiques et durables.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="quest for balance.png" alt="Representation du jeu Quest for Balance">
+            </div>
+            <div class="project-content">
+              <h3>Mental RPG : Quest for Balance</h3>
+              <p>Un quiz interactif qui gamifie la santé mentale. Découvrez votre archétype (Chevalier, Sorcier, Guérisseur...) et apprenez à prendre soin de vous à travers des mécaniques de jeu vidéo.</p>
+              <a href="https://mentalquiz-3kyi4byj.manus.space" target="_blank" class="project-link">
+                Faire le test →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="crave roulette.jpg" alt="Representation site Crave Roulette">
+            </div>
+            <div class="project-content">
+              <h3>Crave Roulette</h3>
+              <p>L'application anti-charge mentale pour les affamés indécis. Entrez vos restrictions et laissez l'algorithme (le destin) choisir votre repas à votre place.</p>
+              <a href="https://craveroult-fhxzrd8d.manus.space" target="_blank" class="project-link">
+                Lancer le destin →
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Me Contacter</h2>
+        <p style="text-align: center; margin-bottom: 30px; color: #a99dc4;">
+            Un projet ? Une question sur le Web ?<br>
+            Écrivez-moi directement à : <a href="mailto:racha.bouajila@gmail.com" style="color: #ffb86c;">racha.bouajila@gmail.com</a>
+        </p>
+        
+        <form class="contact-form" action="https://formspree.io/f/VOTRE_ID_FORMSPREE_ICI" method="POST">
+          <div class="form-group">
+            <label for="name">Votre nom</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Racha Bouajila</h3>
+            <p>Je tisse la toile du web avec une touche de magie et beaucoup d'espoir.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Liens rapides</h3>
+            <p><a href="#about" style="color: #ffb86c; text-decoration: none;">À propos</a></p>
+            <p><a href="#projects" style="color: #ffb86c; text-decoration: none;">Projets</a></p>
+            <p><a href="#contact" style="color: #ffb86c; text-decoration: none;">Contact</a></p>
+          </div>
+          <div class="footer-section">
+            <h3>Suivez-moi</h3>
+            <div class="social-links">
+              <a href="https://fr.linkedin.com/in/racha-bouajila-a75a47307" target="_blank">LinkedIn</a>
+              <a href="https://github.com/rbjlc" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © 2026 Racha Bouajila. Tous droits réservés.
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
