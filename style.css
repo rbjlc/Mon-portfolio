@@ -4,7 +4,7 @@
 /* ===== RÉINITIALISATION (Reset) ===== */ 
 * { margin: 0; padding: 0; box-sizing: border-box; } 
 
-/* ===== STYLES GLOBAUX (Design Whimsy Goth Pro) ===== */ 
+/* ===== STYLES GLOBAUX (Design Whimsy Goth) ===== */ 
 body { 
     font-family: 'Lato', sans-serif; 
     color: #fffbe6; /* Crème */
@@ -269,7 +269,7 @@ nav {
     background: linear-gradient(135deg, #240046 0%, #3c096c 100%); 
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 16px; 
-    overflow: hidden; /* Important pour que l'image suive les bords arrondis */
+    overflow: hidden; /* Pour que l'image suive les bords arrondis */
     display: flex; 
     align-items: center; 
     justify-content: center; 
