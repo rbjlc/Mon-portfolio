@@ -42,6 +42,10 @@ nav {
     font-size: 1.8rem; 
     font-weight: 700; 
     letter-spacing: 0.5px; 
+
+    /* LIGNE AJOUTÉ : */ 
+    text-decoration: none;
+    /* Le reste ne change pas */
     background: linear-gradient(to right, #ff9e00, #ffd60a); /* Or */
     -webkit-background-clip: text;
     background-clip: text;
