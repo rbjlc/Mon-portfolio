@@ -59,7 +59,7 @@ nav {
 } 
 
 .nav-links a { 
-    color: #fffbe6; 
+    color: #ffd60a; /* Or */
     text-decoration: none; 
     font-weight: 500; 
     font-size: 1rem; 
