@@ -67,7 +67,7 @@ nav {
 } 
 
 .nav-links a:hover {
-    color: #ff9e00; 
+    color: #00ffff; /* Bleu cyan */
     text-shadow: 0 0 10px rgba(255, 158, 0, 0.5);
 }
 
