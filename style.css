@@ -68,7 +68,7 @@ nav {
 
 .nav-links a:hover {
     color: #00ffff; /* Bleu cyan */
-    text-shadow: 0 0 10px rgba(255, 158, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
 
 /* ===== HERO SECTION ===== */ 
