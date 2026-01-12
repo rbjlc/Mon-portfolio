@@ -1,12 +1,13 @@
 /* ===== IMPORT FONTS ===== */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@300;400;500&display=swap');
 
 /* ===== RÉINITIALISATION (Reset) ===== */ 
 * { margin: 0; padding: 0; box-sizing: border-box; } 
 
 /* ===== STYLES GLOBAUX (Design Whimsy Goth) ===== */ 
 body { 
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
     color: #fffbe6; /* Crème */
     background-color: #240046; /* Violet Nuit */
     background-image: linear-gradient(135deg, #10002b 0%, #3c096c 100%); 
